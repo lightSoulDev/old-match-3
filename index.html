@@ -1,0 +1,33 @@
+<!doctype HTML>
+<html>
+    <link rel="icon" href="./resources/assets/images/items/08.png">
+    <style>
+        @font-face
+        {
+            font-family: "Visitor TT2 BFK";
+            src: local('Visitor TT2 BFK'), url('./resources/assets/visitor2.woff') format('woff');;
+        }
+
+        * {
+            padding: 0; 
+            margin: 0; 
+            width: 100%; 
+            height: 100%;
+            background-color: #222;
+            position : fixed;
+        }
+    </style>
+    <head>
+        <meta charset="utf-8">
+        <title>Match 3</title>
+    </head>
+<body>
+    <script src="./resources/libs/pixi.js"></script>
+    <script src="./resources/libs/createjs/soundjs.min.js"></script>
+    <script src="./resources/libs/gsap/umd/gsap.js"></script>
+    <script src="./resources/libs/require.js"></script>
+    <script>
+        requirejs([ "./app/Main.js" ]);
+    </script>
+</body>
+</html>
